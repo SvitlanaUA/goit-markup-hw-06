@@ -788,17 +788,25 @@ line-height: 1.87;
 }
 
 .list-form{
-  outline: 1px solid blue;
-
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
   
 }
+.form-input{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 448px;
+  height: 40px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
 
 .consent-form{
   position: absolute;
-  margin-top: 230px;
+  margin-top: 250px;
   margin-bottom: 20px;
   
   top: 70%;
