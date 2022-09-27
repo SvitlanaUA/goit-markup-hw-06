@@ -777,7 +777,7 @@ line-height: 1.87;
 .form{
   margin-top: 12px;
   margin-bottom: 20px;
-  display: flex;
+  display: block;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -787,40 +787,42 @@ line-height: 1.87;
   position: relative;
 }
 
-.js-form{
+.list-form{
+  outline: 1px solid blue;
 
-  margin-right: 40px;
-}
-.consent-form{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
   
-  display: flex;
-  position: relative;
-  margin-top: 12px;
-  margin-bottom: 20px;
-  display: flex;
+}
+
+.consent-form{
   position: absolute;
+  margin-top: 230px;
+  margin-bottom: 20px;
+  
   top: 70%;
   left: 50%;
-  width: 448px;
-  height: 342px;
+  width: 528px;
+  height: 581px;
   transform: translate(-50%, -50%);
 }
 
 .button-form{
- 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
   margin-left: 164px;
-width: 200px;
-height: 50px;
-background: var(--active-bg-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  background: var(--active-bg-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 
-font-size: 16px;
-line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-letter-spacing: 0.06em;
-color: var(--buttoms-text-color--);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--buttoms-text-color--);
 }

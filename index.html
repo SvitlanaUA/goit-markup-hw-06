@@ -384,14 +384,20 @@
     </div>
     <div role="group" class="form">
       <form class="js-form">
-        <label for="name"> Ім'я </label>
-         <input type="text" name="name" id="name"/>
+        <div class="list-form"> 
+          <label class="form-label" for="name"> Ім'я </label>
+          <input lass="form-input" type="text" name="name" id="name"/>
+        </div>
+        <div class="list-form"> 
          <label for="tel"> Телефон </label>
          <input type="text" name="tel" id="tel"/>
+        </div>
+        <div class="list-form"> 
          <label for="email"> Пошта </label>
          <input type="text" name="email" id="email"/>
+        </div>
          <label for="comment"> Коментар </label>
-         <input type="text" name="comment" id="comment"/>
+         <textarea name="comment" id="comment" rows="4"></textarea>
        </form>
     </div>
     <div class="consent-form">
