@@ -379,10 +379,26 @@
         <use href="./images/sprite.svg#icon-close">
         </use>
       </svg>
-      </button>
+      </button> 
+      <h4 class="title-form"> Залиште свої дані, ми вам передзвонимо </h>
     </div>
+    <div role="group" class="form">
+      <form class="js-form">
+        <label for="name"> Ім'я </label>
+         <input type="text" name="name" id="name"/>
+         <label for="tel"> Телефон </label>
+         <input type="text" name="tel" id="tel"/>
+         <label for="email"> Пошта </label>
+         <input type="text" name="email" id="email"/>
+         <label for="comment"> Коментар </label>
+         <input type="text" name="comment" id="comment"/>
+       </form>
+    </div>
+    <div class="consent-form">
+      <input type="checkbox" name="topic" value="consent" id="consent"/>
+      <label for="consent"> Погоджуюся з розсилкою та приймаю Умови договору </label>
+    <button class="button-form" type="submit">Відправити</button>
    </div>
-   
    <script src="./js/modal.js"></script>
   </body>
 </html>
