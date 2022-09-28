@@ -369,9 +369,18 @@
             </li>
           </ul>
         </div>
-      </div>
+        <div class="form-footer">
+        <div class="form-email">
+          <form>
+          <label class="form-label" for="email"> </label>
+          <input class="footer-input" type="text" name="email" id="email" placeholder="E-mail"/>
+          </form>
+        </div>
+          <button class="button-footer" type="submit"> Підписатися </button>
+        </div>
+      </div>  
    </footer> 
-
+   
    <div class="container backdrop is-hidden" data-modal>
     <div class="modal">
       <button class="clouse-botton"  data-modal-close >
@@ -380,13 +389,49 @@
         </use>
       </svg>
       </button> 
+      <div class="form">
+        <h4 class="title-form"> Залиште свої дані, ми вам передзвонимо </h4>
+          <form class="js-form">
+            <div class="list-form"> 
+              <label class="form-label" for="name"> Ім'я</label>
+              <input class="form-input" type="text" name="name" id="name"/>
+            </div>
+            <div class="list-form"> 
+              <label class="form-label" for="tel"> Телефон </label>
+              <input class="form-input" type="text" name="tel" id="tel"/>
+            </div>
+            <div class="list-form"> 
+              <label class="form-label" for="email"> Пошта </label>
+              <input class="form-input" type="text" name="email" id="email"/>
+            </div>
+            <div class="comment-form"> 
+              <label class="form-label" for="comment"> Коментар </label>
+              <textarea class="form-comment" name="comment" id="comment" rows="8"> </textarea>
+             </div>
+           </form>
+          <div class="consent-form">
+            <input type="checkbox" name="topic" value="consent" id="consent"/>
+            <label lass="consent-titel" for="consent"> Погоджуюся з розсилкою та приймаю Умови договору </label>
+            
+            <button class="button-form" type="submit">Відправити</button>
+          </div>
+      </div>
+      
+      <script src="./js/modal.js"></script>
+    </div>
+   </div>
+      <!-- 
       <h4 class="title-form"> Залиште свої дані, ми вам передзвонимо </h>
     </div>
     <div role="group" class="form">
       <form class="js-form">
         <div class="list-form"> 
-          <label class="form-label" for="name"> Ім'я </label>
           <input lass="form-input" type="text" name="name" id="name"/>
+          <label class="form-label" for="name"> Ім'я 
+            <svg class="icon-form" viewBox="0 0 32 32"> 
+              <use href="./images/sprite.svg#icon-phone-black"> </use>
+            </svg>
+          </label>
         </div>
         <div class="list-form"> 
          <label for="tel"> Телефон </label>
@@ -403,13 +448,15 @@
        </form>
     </div>
     <div class="consent-form">
-      <div class="list-form"></div>
+      <div class="list-form">
       <input type="checkbox" name="topic" value="consent" id="consent"/>
       <label for="consent"> Погоджуюся з розсилкою та приймаю Умови договору </label>
       <button class="button-form" type="submit">Відправити</button>
     </div>
    </div>
-   <script src="./js/modal.js"></script>
+   -->
+  
+   
   </body>
 </html>
 
