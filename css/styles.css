@@ -597,19 +597,12 @@ background-color: var(--active-bg-color);
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--buttoms-text-color--);
-  background-color: rgba(255, 255, 255, 0.1);
+  background: var(--active-bg-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding-left: 28px;
 }
-.button-footer:focus, .button-foote:hover{
-  background: var(--active-bg-color); 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.footer-input:focus,
-.footer-input:hover {
-  outline: white;
-}
+
 .icon-send {
   position: absolute;
   width: 24px;
