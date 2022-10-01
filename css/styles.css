@@ -824,7 +824,7 @@ line-height: 1.87;
 .svg-close-black{
   align-items: center;
   text-align: center;
-  justify-content: center;
+  justify-content:center;
   width: 11px;
   height: 11px;
  
@@ -912,6 +912,15 @@ margin-left: 40px;
 margin-right: 40px;
 
 }
+.covenant{
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: #2196F3;
+}
 
 .form-comment{
 width: 448px;
@@ -951,7 +960,7 @@ visibility: hidden;
   border: 2px solid rgba(33, 33, 33, 1);
   border-radius: 3px;
   transition-duration: 250ms;
-    transition-timing-function: var(--timing-function--);
+  transition-timing-function: var(--timing-function--);
 }
 
 
@@ -970,6 +979,8 @@ visibility: hidden;
  background-color: #2196F3;
  border: #2196F3;
 }
+
+
 
 .button-form{
  position: relative;
