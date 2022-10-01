@@ -370,93 +370,83 @@
           </ul>
         </div>
         <div class="form-footer">
+        
         <div class="form-email">
-          <form>
+          <p class="title-form-footer"> Підпишіться на розсилку</p>
+          <form class="footer-subscribe">
           <label class="form-label" for="email"> </label>
           <input class="footer-input" type="text" name="email" id="email" placeholder="E-mail"/>
-          </form>
-        </div>
-          <button class="button-footer" type="submit"> Підписатися </button>
-        </div>
+          <button class="button-footer" type="submit"> Підписатися 
+             <svg class="icon-send" viewBox="0 0 32 32"> 
+              <use href="./images/sprite.svg#icon-send"> </use>
+             </svg>
+          </button>
+        </form>
       </div>  
    </footer> 
-   
+
    <div class="container backdrop is-hidden" data-modal>
     <div class="modal">
-      <button class="clouse-botton"  data-modal-close >
-        <svg class="svg-close-black"  width="30" >
-        <use href="./images/sprite.svg#icon-close">
-        </use>
-      </svg>
-      </button> 
+      <div class="modal-buttom">
+        <button class="clouse-botton"  data-modal-close >
+          <svg class="svg-close-black"  width="30" >
+            <use href="./images/sprite.svg#icon-close">
+          </use>
+        </button>
+      </div>
       <div class="form">
         <h4 class="title-form"> Залиште свої дані, ми вам передзвонимо </h4>
           <form class="js-form">
             <div class="list-form"> 
               <label class="form-label" for="name"> Ім'я</label>
-              <input class="form-input" type="text" name="name" id="name"/>
+              <div class="form-wrap">
+                 <input class="form-input" type="text" name="name" id="name"/>
+                  <svg class="icon-form" viewBox="0 0 32 32"> 
+                   <use href="./images/sprite.svg#icon-person-black"> </use>
+                  </svg>
+                </div>
             </div>
             <div class="list-form"> 
               <label class="form-label" for="tel"> Телефон </label>
+             <div class="form-wrap">
               <input class="form-input" type="text" name="tel" id="tel"/>
+                <svg class="icon-form" viewBox="0 0 32 32"> 
+                  <use href="./images/sprite.svg#icon-phone-black"> </use>
+                </svg>
+              </div>
             </div>
             <div class="list-form"> 
               <label class="form-label" for="email"> Пошта </label>
-              <input class="form-input" type="text" name="email" id="email"/>
+            <div class="form-wrap">
+                <input class="form-input" type="text" name="email" id="email"/>
+                  <svg class="icon-form" viewBox="0 0 32 32"> 
+                    <use href="./images/sprite.svg#icon-email-black"> </use>
+                  </svg>
+              </div>
             </div>
+      
             <div class="comment-form"> 
               <label class="form-label" for="comment"> Коментар </label>
-              <textarea class="form-comment" name="comment" id="comment" rows="8"> </textarea>
+              <textarea class="form-comment" name="comment" id="comment" 
+               placeholder="Введіть текст"></textarea>
              </div>
-           </form>
-          <div class="consent-form">
-            <input type="checkbox" name="topic" value="consent" id="consent"/>
-            <label lass="consent-titel" for="consent"> Погоджуюся з розсилкою та приймаю Умови договору </label>
-            
-            <button class="button-form" type="submit">Відправити</button>
-          </div>
-      </div>
-      
-      <script src="./js/modal.js"></script>
-    </div>
-   </div>
-      <!-- 
-      <h4 class="title-form"> Залиште свої дані, ми вам передзвонимо </h>
-    </div>
-    <div role="group" class="form">
-      <form class="js-form">
-        <div class="list-form"> 
-          <input lass="form-input" type="text" name="name" id="name"/>
-          <label class="form-label" for="name"> Ім'я 
-            <svg class="icon-form" viewBox="0 0 32 32"> 
-              <use href="./images/sprite.svg#icon-phone-black"> </use>
-            </svg>
-          </label>
+             <div class="consent-form">
+              <label class="consent-titel" for="consent"> Погоджуюся з розсилкою та приймаю Умови договору </label>
+              <input class="checkbox" type="checkbox" name="topic" value="consent" id="consent"/>
+              <div class="checkbox-form">
+                <svg class="svg-close-black"  width="11" >
+                  <use href="./images/sprite.svg#icon-Vectors">
+                </use>
+              </div>
+            </div >
+              <button class="button-form" type="submit"> Відправити  </button>
         </div>
-        <div class="list-form"> 
-         <label for="tel"> Телефон </label>
-         <input type="text" name="tel" id="tel"/>
-        </div>
-        <div class="list-form"> 
-         <label for="email"> Пошта </label>
-         <input type="text" name="email" id="email"/>
-        </div>
-        <div class="list-form"> 
-         <label for="comment"> Коментар </label>
-         <textarea name="comment" id="comment" rows="8"></textarea>
-         </div>
-       </form>
+      </form>
+     
     </div>
-    <div class="consent-form">
-      <div class="list-form">
-      <input type="checkbox" name="topic" value="consent" id="consent"/>
-      <label for="consent"> Погоджуюся з розсилкою та приймаю Умови договору </label>
-      <button class="button-form" type="submit">Відправити</button>
-    </div>
-   </div>
-   -->
-  
-   
+  </div>    
+   <script src="./js/modal.js"></script>
+    
   </body>
 </html>
 
