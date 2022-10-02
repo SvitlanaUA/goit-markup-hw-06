@@ -982,7 +982,7 @@ visibility: hidden;
   justify-content: center;
   width: 11px;
   height: 11px;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 
 .checkbox:checked + .checkbox-form{
