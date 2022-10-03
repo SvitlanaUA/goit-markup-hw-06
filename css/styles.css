@@ -575,9 +575,12 @@ background-color: var(--active-bg-color);
  
   color: var(--buttoms-text-color--)
 }
+
 .footer-subscribe{
   display: flex;
+ 
 }
+
 
 .footer-input{
   display: block;
@@ -589,8 +592,10 @@ background-color: var(--active-bg-color);
   background-color: #2F303A;
   outline: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  border-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   margin-right: 12px;
+  color: white;
 }
 
 .button-footer {
@@ -618,7 +623,7 @@ background-color: var(--active-bg-color);
   width: 24px;
   height: 24px;
   margin-left: 18px;
-  fill: white;
+  fill: var(--buttoms-text-color--);
 }
 
 
@@ -974,6 +979,9 @@ visibility: hidden;
   justify-content: center;
   width: 11px;
   height: 11px;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function--);
+  
 }
 
 .icon-Vectors {
